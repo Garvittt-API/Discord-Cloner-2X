@@ -1,0 +1,1841 @@
+{
+    "name": "ResellFactory",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "tickets 🎫",
+                "permissions": [
+                    {
+                        "roleName": "Ticket Tool",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Vouches Bots",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "Buy tickets",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-0027",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Buy tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-0029",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Buy tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-0030",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Buy tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Replace Tickets",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "Support tickets",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-0025",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Support tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co Owner",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Legitness",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏝️・legit",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Legitness",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸・proofs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Legitness",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍜・vouches",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Legitness",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Customer (DM=BAN)",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Vouches Bots",
+                                "allow": "1126451810143232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "discord.gg/firero",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Important",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📚・tos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📣・announcement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💌・tickets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎁・events",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・preorders",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎉・giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌐・website",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💳・payment-methods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛄・staff-application",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "applications",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Private Stock",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🥏・resellerplans",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Private Stock",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Restocks",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・restocks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・n1tro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・n3tflix",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・d1sney",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・sp0tify",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・chatgpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・youtube-premium",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・crunchyr0ll",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・minecraft",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・s0cial-media-panel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・capcut-pr0",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・cc-panel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・dazn",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・hb0-max",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・prime-video",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・robux-panel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Restocks",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Suppliers",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・n1tro-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・all-pr0duct-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・sp0tify-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・pp-l0g-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・disney-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・dc-acc-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・dc-members-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・dec0-supplier",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Suppliers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Meth0ds",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・n1tro-meth0d",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Meth0ds",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄️・dec0-meth0d",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Meth0ds",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Community",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "💎・chill",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Community",
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Community",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・bot-cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Community",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Slots",
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌺・slot-rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Slots",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌺・slot-prices",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Slots",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌺・slot-vouches",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Slots",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Verified",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Reseller Plan Acces",
+                "permissions": [
+                    {
+                        "roleName": "Resellerplan",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Resellerplan+",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Resellerplan++",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Resellerplan+++",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💰・stock-resellerplan",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Reseller Plan Acces",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Resellerplan",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Resellerplan+++",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Resellerplan++",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Resellerplan+",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💰・rchat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Reseller Plan Acces",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Resellerplan",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Resellerplan+",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Resellerplan++",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Resellerplan+++",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Staff team",
+                "permissions": [
+                    {
+                        "roleName": "Staff Team",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-goals",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-activity",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-rankups",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1084416",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff Team",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "🛬・arrivals",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "InviteLogger",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "leaves",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "☃️・verify",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Verified",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "logs",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Owners",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Co Owner",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "1099511628800",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Bots",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Vouches Bots",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff Supervisor",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "1099511635970",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff Team",
+            "color": "#ff8c00",
+            "hoist": true,
+            "permissions": "1099511627776",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Big Customer",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Slot Owner",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Resellerplan+++",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Resellerplan++",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Resellerplan+",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Resellerplan",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Customer (DM=BAN)",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Verified",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2248370319347201",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1767456465556,
+    "guildID": "1451921288431009835",
+    "id": "1457042764305924096",
+    "iconURL": "https://cdn.discordapp.com/icons/1451921288431009835/8a1818898180c398cac812eb551d2a81.webp"
+}
